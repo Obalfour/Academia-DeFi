@@ -3,7 +3,7 @@ import VideoSquare from "./VideoSquare";
 export default function Videos() {
     return (
         <div>
-            <h1 className="position-absolute end-50 start-50 translate-middle pb-2">VIDEOS</h1>
+            <div className="d-flex justify-content-center"><h1>VIDEOS</h1></div>
             <div className="pt-5">
                 <VideoSquare
                     videoId="fYGutx4W7Ys"

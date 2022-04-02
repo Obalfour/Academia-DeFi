@@ -3,7 +3,7 @@ import ArticuloSquare from './ArticuloSquare';
 export default function Articulos() {
     return (
         <div>
-            <h1 className="position-absolute end-50 start-50 translate-middle pb-2">ARTICULOS</h1>
+            <div className="d-flex justify-content-center"><h1>ARTÍCULOS</h1></div>
             <div className="pt-5">
                 <ArticuloSquare
                     image='https://images.cointelegraph.com/images/1200_aHR0cHM6Ly9zMy5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbS9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjAtMDkvMjY1MDg5ZDgtNzEwYi00MGZmLWE0NTYtMDBkODVkOGVhMjViLmpwZw==.jpg'
