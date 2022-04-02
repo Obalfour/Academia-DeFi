@@ -4,7 +4,7 @@ import data from '../data/articulos.json';
 export default function Articulos() {
     return (
         <div>
-            <div className="d-flex justify-content-center"><h1>ARTÍCULOS</h1></div>
+            <div className="d-flex justify-content-center"><h1 className="fs-1 fw-bold gradient-text">ARTÍCULOS</h1></div>
             <div className="pt-5">
                 {
                     Object.keys(data).map((e) => {

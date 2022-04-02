@@ -5,16 +5,19 @@ import Articulos from './Articulos'
 import Trabajos from './Trabajos.jsx'
 import { Link, Route, Routes } from 'react-router-dom';
 import logo from "../img/space-station.png";
+import './styles/Text.css';
 
 export default function App() {
   return (
     <div>
-      <nav className="navbar navbar-light bg-light mb-5 pt-4 pb-5">
-        <a className="navbar-brand ps-5">
+      <nav className="navbar navbar-light bg-light">
+        <a className="navbar-brand ps-3">
+          <p className="fs-3 gradient-text">
           <strong>
-            <img src={logo} width="30" height="30" className="d-inline-block align-top" alt="" />
+            <img src={logo} width="45" height="45" className="d-inline-block align-top me-2" alt="" />
             Academia DeFi
           </strong>
+          </p>
         </a>
         <ul>
           <li><Link to="/">Home</Link></li>
