@@ -9,15 +9,6 @@ export default function Nosotros() {
 
     useEffect(async () => {
         let provider = window.ethereum;
-        if (typeof provider !== 'undefined') {
-          const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
-          userAddress = accounts[0];
-          document.getElementById('account').innerHTML = `Wallet Conectada: ${userAddress}`;
-          window.ethereum.on('accountChanged', (accounts) => {
-            userAddress = accounts[0];
-            document.getElementById('account').innerHTML = `Wallet Conectada: ${userAddress}`;
-          });
-        }
         web3 = new Web3(provider);
     }, []);
 
