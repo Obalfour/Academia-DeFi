@@ -42,15 +42,15 @@ export default function Nosotros() {
     return (
         <div>
             <div className="d-flex justify-content-center"><h1 className="fs-1 fw-bold gradient-text">NOSOTROS</h1></div>
+            <p className="fs-5 text-white w-75 pt-3 mx-auto">Somos una plataforma totalmente gratuita, ninguno de nuestro contenido sera pago porque un mundo con educacion financiera puede impulsarnos como sociedad. Por eso si bien no tenemos ingresos, tu aporte es de mucha ayuda para poder continuar proporcionando contenido!</p>
             <button type="button" className="btn fw-bold btn-outline-success mx-auto d-grid mt-5 mb-3" onClick={connectWallet}>Conecta tu Wallet</button>
             <p id="account" className="d-flex fw-bold justify-content-center text-white"></p>
-            <h5 className="fs-1 fw-bold text-white">Somos una plataforma totalmente gratuita, ninguno de nuestro contenido sera pago porque un mundo con educacion financiera puede impulsarnos como sociedad. Por eso si bien no tenemos ingresos, tu aporte es de mucha ayuda para poder continuar proporcionando contenido!</h5>
-            <div className="input-group mb-3 mt-5">
+            <div className="input-group mx-auto mb-3 mt-1 w-25">
                 <span className="input-group-text text-white bg-dark">Ξ</span>
                 <input type="number" className="form-control text-white bg-dark" id='depositValue' min={0} precision={3} step={0.001}/>
             </div>
             <div className="d-flex justify-content-center">
-                <button type="button" className="btn btn-primary mx-auto d-grid mt-2 mb-3" onClick={sendEther}>Aporta</button>
+                <button type="button" className="btn btn-primary mx-auto d-grid mt-2 mb-3" onClick={sendEther}>Send Ether ➡</button>
             </div>
         </div>
     );
