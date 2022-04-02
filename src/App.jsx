@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div>
       <header>
-        <h4>Academia Defi</h4>
+        <h2>Academia Defi 🎉</h2>
         <nav>
           <ul>
             <li><Link to="/">Home</Link></li>
