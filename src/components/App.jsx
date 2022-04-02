@@ -1,4 +1,4 @@
-import './App.css'
+import './styles/App.css'
 import Home from './Home.jsx'
 import Videos from './Videos.jsx'
 import Articulos from './Articulos'
