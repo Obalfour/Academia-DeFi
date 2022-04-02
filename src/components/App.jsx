@@ -1,5 +1,6 @@
 import './styles/App.css'
 import Home from './Home.jsx'
+import Nosotros from './Nosotros'
 import Videos from './Videos.jsx'
 import Articulos from './Articulos'
 import Trabajos from './Trabajos.jsx'
@@ -24,6 +25,7 @@ export default function App() {
           <li><Link to="/videos">Videos</Link></li>
           <li><Link to="/articulos">Articulos</Link></li>
           <li><Link to="/trabajos">Trabajos</Link></li>
+          <li><Link to="/nosotros">Nosotros</Link></li>
         </ul>
       </nav>
       <Routes>
@@ -31,6 +33,7 @@ export default function App() {
         <Route path='/videos' element={<Videos />} />
         <Route path='/articulos' element={<Articulos />} />
         <Route path='/trabajos' element={<Trabajos />} />
+        <Route path='/nosotros' element={<Nosotros />} />
       </Routes>
     </div>
   )
