@@ -13,19 +13,19 @@ const URLBase = 'https://youtu.be/';
 
 export default function VideoSquare(props) {
     return (
-        <div id='videoSquare' class="card mb-3 pt-1 ps-1">
-            <div class="row g-0">
-                <div class="col-md-4">
+        <div id='videoSquare' className="card mb-3 pt-1 ps-1">
+            <div className="row g-0">
+                <div className="col-md-4">
                     <YouTube
                         className='rounded-3'
                         videoId={props.videoId}
                         opts={options}
                     />
                 </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <a id='title-card-id' href={`${URLBase}${props.videoId}`} class="card-title">{props.title}</a>
-                        <p class="card-text">{props.description}</p>
+                <div className="col-md-8">
+                    <div className="card-body">
+                        <a id='title-card-id' href={`${URLBase}${props.videoId}`} className="card-title">{props.title}</a>
+                        <p className="card-text">{props.description}</p>
                     </div>
                 </div>
             </div>
