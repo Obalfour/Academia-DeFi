@@ -10,8 +10,8 @@ import './styles/Text.css';
 
 export default function App() {
   return (
-    <div>
-      <nav className="navbar navbar-light bg-light">
+    <div className="bg-dark min-vh-100 min-vw-100">
+      <nav className="navbar navbar-dark bg-dark bg-gradient">
         <a className="navbar-brand ps-3">
           <p className="fs-3 gradient-text">
           <strong>
@@ -23,7 +23,7 @@ export default function App() {
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/videos">Videos</Link></li>
-          <li><Link to="/articulos">Articulos</Link></li>
+          <li><Link to="/articulos">Artículos</Link></li>
           <li><Link to="/trabajos">Trabajos</Link></li>
           <li><Link to="/nosotros">Nosotros</Link></li>
         </ul>
