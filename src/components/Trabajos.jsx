@@ -4,8 +4,8 @@ import data from "../data/trabajos.json";
 export default function Trabajos() {
     return (
         <div>
-            <h1>Trabajos</h1>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div className="d-flex justify-content-center"><h1 className="fs-1 fw-bold gradient-text">TRABAJOS</h1></div>
+            <div class="row row-cols-1 row-cols-md-5 m-5 g-4 pt-1">
                 {
                     Object.keys(data).map((e) => {
                         return <TrabajosSquare
