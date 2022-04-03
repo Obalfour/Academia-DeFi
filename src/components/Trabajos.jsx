@@ -5,7 +5,7 @@ export default function Trabajos() {
     return (
         <div>
             <div className="d-flex justify-content-center"><h1 className="fs-1 fw-bold gradient-text">TRABAJOS</h1></div>
-            <div class="row row-cols-1 row-cols-md-5 m-5 g-4 pt-1">
+            <div class="row row-cols-1 row-cols-md-3 pt-2 mt-2 me-3 ms-3">
                 {
                     Object.keys(data).map((e) => {
                         return <TrabajosSquare
