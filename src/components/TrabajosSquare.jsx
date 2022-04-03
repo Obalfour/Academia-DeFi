@@ -1,7 +1,7 @@
 export default function TrabajosSquare(props) {
     return (
         <div class="col">
-            <div class="card">
+            <div class="card h-100">
             <img src={props.image} class="card-img-top"/>
             <div class="card-body">
                 <h5 class="card-title">{props.title}</h5>

@@ -3,7 +3,9 @@ import { useEffect } from 'react';
 
 export default function Nosotros() {
 
-    const WALLET = '0xA5de4364e621f37F73Dfa6fCcd905aA427aE192a';
+    // Contrato deployeado en Rinkeby (Testing Network)
+    // https://rinkeby.etherscan.io/address/0x0fD1532eaA49DF13e3bA09Ccfe02d085D068DE0C
+    const CONTRACT = '0x0fD1532eaA49DF13e3bA09Ccfe02d085D068DE0C';
 
     let userAddress, amountDeposit;
 
@@ -25,7 +27,7 @@ export default function Nosotros() {
         amountDeposit = amountDeposit * 1000000000000000000;
         web3.eth.sendTransaction({
           from: userAddress,
-          to: WALLET,
+          to: CONTRACT,
           value: amountDeposit
         });
     }

@@ -1,44 +1,37 @@
 {
     "0": {
-        "title": "Desarrollador Web",
-        "description": "Desarrollo de aplicaciones web para la gestión de la información de una empresa.",
-        "linkOferta": "https://www.mercadolibre.com.ar/",
-        "image": "https://www.codigodebarra.com.ar/wp-content/uploads/2021/08/mercado-libre-codigo-universal-de-producto.png",
+        "title": "Javascript Blockchain Developer",
+        "description": "As great enthusiasts and active contributors to the open-source blockchain communities, we help builders and providers of decentralized infrastructure, protocols, and applications, bootstrap the demand and supply sides of their markets and accelerate mass adoption.",
+        "linkOferta": "https://apply.workable.com/altoros/j/C9B47ECC57/apply/",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipMVdPzTWqsxPSGyDD9IS9gzmjiQWtAM6FjKGMHk=w1080-k-no",
         "vacantes": "2"
     },
     "1": {
-        "title": "Desarrollador Web",
-        "description": "Desarrollo de aplicaciones web para la gestión de la información de una empresa.",
-        "linkOferta": "https://www.mercadolibre.com.ar/",
-        "image": "https://www.codigodebarra.com.ar/wp-content/uploads/2021/08/mercado-libre-codigo-universal-de-producto.png",
-        "vacantes": "2"
+        "title": "Web3 Backend Dev",
+        "description": "Trabajar en la implementación de una blockchain para gaming, en el backend. (APIs rest, integraciones de terceros, webservices, clientes JS, desarrollo del core de la plataforma, blockchain, etc.)",
+        "linkOferta": "https://jobs.ripio.com/jobs/1654502-web3-backend-dev",
+        "image": "https://pbs.twimg.com/profile_images/1221853510188371970/gPhX3Jw-_400x400.jpg",
+        "vacantes": "1"
     },
     "2": {
-        "title": "Desarrollador Web",
-        "description": "Desarrollo de aplicaciones web para la gestión de la información de una empresa.",
-        "linkOferta": "https://www.mercadolibre.com.ar/",
-        "image": "https://www.codigodebarra.com.ar/wp-content/uploads/2021/08/mercado-libre-codigo-universal-de-producto.png",
+        "title": "Blockchain Engineer",
+        "description": "We specialize in end-to-end development of Cloud and Mobile solutions, and complex Cloud to Cloud integrations of SAP, AWS, Salesforce and third party applications with IoT, drones, Machine Learning and advanced analytics.",
+        "linkOferta": "https://inclusion.hiringroom.com/jobs/get_vacancy/6214e0e336d03003f3cc0385?source=linkedinjobs",
+        "image": "https://mibucle-assets.s3.amazonaws.com/companies/logos/000/000/237/original/50b3c5b4503dcb2d07ff074f18255c61bb03e36b.jpg?1621637228",
         "vacantes": "2"
     },
     "3": {
-        "title": "Desarrollador Web",
-        "description": "Desarrollo de aplicaciones web para la gestión de la información de una empresa.",
-        "linkOferta": "https://www.mercadolibre.com.ar/",
-        "image": "https://www.codigodebarra.com.ar/wp-content/uploads/2021/08/mercado-libre-codigo-universal-de-producto.png",
-        "vacantes": "2"
+        "title": "Blockchain Developer",
+        "description": "We are looking for a freelance Blockchain developer who will help us advance exciting projects with some of the world’s top companies.",
+        "linkOferta": "https://www.toptal.com/freelance-jobs/developers/blockchain/job-description/blockchain-developer-full-time-2?utm_source=li_unlimited&utm_medium=talent&utm_campaign=Talent%20-%20Blockchain%20-%20T20%20-%20GM-276%7CMAR_600V%20%7CJDv2_LP&utm_content=San%20Miguel%20de%20Tucuman%20%7C%20AR",
+        "image": "https://play-lh.googleusercontent.com/vIoRVS3uhUxgeS4CGcnj5CvlI6vHB728bu41tGJAugIEc209P-xHE01rgpo5SuEDzQ",
+        "vacantes": "5"
     },
     "4": {
-        "title": "Desarrollador Web",
-        "description": "Desarrollo de aplicaciones web para la gestión de la información de una empresa.",
-        "linkOferta": "https://www.mercadolibre.com.ar/",
-        "image": "https://www.codigodebarra.com.ar/wp-content/uploads/2021/08/mercado-libre-codigo-universal-de-producto.png",
-        "vacantes": "2"
-    },
-    "5": {
-        "title": "Desarrollador Web",
-        "description": "Desarrollo de aplicaciones web para la gestión de la información de una empresa.",
-        "linkOferta": "https://www.mercadolibre.com.ar/",
-        "image": "https://www.codigodebarra.com.ar/wp-content/uploads/2021/08/mercado-libre-codigo-universal-de-producto.png",
-        "vacantes": "2"
+        "title": "Desarrollador Blockchain Sr/Ssr",
+        "description": "Desarrollador Blockchain para un trabajo Part time de un proyecto Crypto para el exterior. Proyecto Plataforma de subastas para lanzamiento de cryptos. Objetivo Liderar el desarrollo backend de un Crypto Launchpad. Carga horaria Part time.",
+        "linkOferta": "https://scigestion.hiringroom.com/jobs/get_vacancy/6132716e616e7f011e2171d3?source=linkedinjobs",
+        "image": "https://trabajo.buenosaires.gob.ar/uploads/logos/046d8249ead1ff6696d0687076a573a7.png",
+        "vacantes": "3"
     }
 }
