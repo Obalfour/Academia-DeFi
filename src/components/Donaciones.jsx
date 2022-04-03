@@ -38,7 +38,7 @@ export default function Donaciones() {
             <div className="d-flex justify-content-center"><h1 className="fs-1 fw-bold text-white">Donaciones</h1></div>
             <p className="fs-5 text-white fst-italic w-50 pt-3 text-center mx-auto">Somos una plataforma totalmente gratuita, por eso tu aporte vale mucho!</p>
             <button type="button" className="btn fw-bold btn-outline-success mx-auto d-grid mt-5" onClick={connectWallet}>Conectar Wallet</button>
-            <p id="account" className="d-flex fw-bold justify-content-center text-white"></p>
+            <p id="account" className="d-flex fw-bold justify-content-center text-white m-3"></p>
             <p className="text-muted align-text-center text-center">Cantidad en Ether</p>
             <div className="input-group mx-auto mb-3 mt-1 w-25">
                 <span className="input-group-text text-white bg-dark">Ξ</span>
