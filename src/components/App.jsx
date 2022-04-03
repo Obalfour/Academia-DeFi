@@ -8,6 +8,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 import logo from "../img/space-station.png";
 import './styles/Text.css';
 
+
 export default function App() {
   return (
     <div className="bg-dark min-vh-100 min-vw-100">
