@@ -3,6 +3,7 @@ import HomeCard from './HomeCard';
 import free from '../img/free.png';
 import levels from '../img/levels.png';
 import online from '../img/online.png';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
     return (
@@ -15,8 +16,7 @@ export default function Home() {
                         <small className="text-muted">Aprendé a dominar las mejores habilidades para ser un experto en
                             el mundo de las finanzas descentralizadas.</small>
                     </h3>
-                    <button type="button" className="btn gradient-button border-0 text-white btn-lg mt-3">Ver recursos
-                    </button>
+                    <Link to="/articulos"><button type="button" className="btn gradient-button border-0 text-white btn-lg mt-3">Ver recursos</button></Link>
                 </div>
                 <div className="col-md-4 text-center">
                     <img src={lightsaber} className="img-fluid"/>
