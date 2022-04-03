@@ -1,12 +1,16 @@
 #articleSquare {
-    max-width: 1300px;
+    max-width: 1100px;
     border-radius: 10px;
     margin: 0 auto;
 }
 
 #title-article-id {
     text-decoration: none;
-    color: rgb(87, 110, 255);
+    color: rgb(255, 87, 87);
     font-weight: bold;
     font-size: 30px;
+}
+
+#title-article-id:hover {
+    color: rgb(255, 61, 61);
 }

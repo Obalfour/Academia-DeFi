@@ -1,17 +1,12 @@
 {
   "0": {
-    "videoId": "fYGutx4W7Ys",
-    "title": "EPISODIO I: La Amenaza DeFi",
-    "description": "En este video aprenderas que son las Finanzas Descentralizadas: sus ventajas, para qué sirver y su futuro."
-  },
-  "1": {
     "videoId": "dnxfqmjNAtQ",
-    "title": "EPISODIO II: El ataque de los mercados",
+    "title": "(1/2) Introducción a DeFi Development",
     "description": "En este video aprenderas cómo programar un AMM (Automatic Market Maker) muy utilizado en exchanges como Uniswap para swap de tokens ERC20."
   },
-  "2": {
+  "1": {
     "videoId": "H8sbS9V6gVY",
-    "title": "EPISODIO III: La venganza de los exchanges",
+    "title": "(2/2) Introducción a DeFi Development",
     "description": "En este video aprenderas cómo programar un AMM (Automatic Market Maker) muy utilizado en exchanges como Uniswap para swap de tokens ERC20."
   }
 }
